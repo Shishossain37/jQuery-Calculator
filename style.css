@@ -1,0 +1,53 @@
+body {
+  background-color: azure;
+  margin-top: 150px;
+}
+p {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  position: relative;
+  left: 35%;
+}
+.calculator {
+  margin: 1em auto;
+  padding: 1em 0;
+  width: 350px;
+  background-color: #758d8b;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 3px #dbd5d5;
+  font-family: "Oxygen";
+}
+.screen {
+  background-color: #aaa;
+  min-height: 2.2em;
+  margin: 12px 12px;
+  border-radius: 3px;
+  padding-left: 11.5em;
+  font-family: cursive;
+  font-size: 17px;
+  padding-top: 1.1em;
+}
+.clac-row .screen {
+  text-align: right;
+}
+.clac-row .button {
+  text-align: center;
+  background-color: #eee;
+  width: 50px;
+  display: inline-block;
+  margin: 7px 5px;
+  padding: 10px 0;
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px 1px #222;
+  font-weight: bold;
+  cursor: pointer;
+}
+.clac-row {
+  text-align: center;
+}
+
+.clac-row .equal {
+  width: 112px;
+  margin-left: 10px;
+}
